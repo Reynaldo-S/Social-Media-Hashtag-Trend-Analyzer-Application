@@ -38,9 +38,9 @@ Include hashtags with the "#" symbol in your post text.
 ## Submit your post: 
 
 **Clicking "Post" triggers the following actions:**
-The post content is sent to an AWS Lambda function configured with the name LAMBDA_FUNCTION_NAME (replace with your actual function name).
+The post content is sent to an AWS Lambda function configured with the name hashtag.
 The Lambda function extracts hashtags using regular expressions.
-Extracted hashtags and the original post content are stored in a DynamoDB table named post_content (replace with your actual table name).
+Extracted hashtags and the original post content are stored in a DynamoDB table named post_content.
 
 ## View trending hashtags: 
 
